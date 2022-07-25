@@ -1,0 +1,2 @@
+pytest -v -s testCase/test_login_ddt.py --browser chrome
+pytest -v -s --html=Reports\report_ddt_login.html testCase/test_login_ddt.py --browser chrome
